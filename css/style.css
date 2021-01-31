@@ -1,10 +1,14 @@
 /* CSS for ctec-127-lab-6.php */
+/* I didn't center anything because.. you hate it! haha*/
 
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2em;
     width: 800px;
     margin: 0 auto;
+    border: 5px double #b621fe;
+    padding: 20px 50px 50px 50px;
+    
 }
 
 label {
@@ -17,8 +21,11 @@ label {
 }
 
 input[type=submit] {
-    background: #336699;
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
     color: #fff;
     padding: 10px;
     font-size: 1em;
 }
+
+
